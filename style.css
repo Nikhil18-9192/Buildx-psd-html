@@ -1,0 +1,929 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    overflow-x: hidden;
+}
+.header{
+    background-color: #f5f5f5;
+    height: 50px;
+    font-size: 14px;
+    padding-top: 15px;
+}
+.header .contact{
+    text-align: right;
+}
+.header .contact span{
+    margin-right: 50px;
+}
+.navbar-collapse{
+    justify-content: flex-end!important;
+}
+ 
+.navbar-light .navbar-nav .nav-link {
+    color: #252c3a;
+    font-size: 14px;
+    font-weight: 500;
+    padding-right: 20px;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fab702;
+    transition: 0.3s;
+} 
+.custome_hero{
+    background-image: url(images/hero.jpg);
+    height: 100vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+   
+}
+.main_text{
+    font-size: 64px;
+    font-weight: 650;
+    color: #fff;
+    line-height: 1;
+    position: relative;
+    top: 190px;
+}
+.sub_text{
+    font-size: 14px;
+    position: relative;
+    top: 195px;
+    color: #fff;
+}
+.custome_hero button{
+    position: relative;
+    top: 215px;
+    background-color: #fab702;
+    border: none;
+    padding: 15px 50px;
+    color: #fff;
+    font-size: 14px;
+    border: none;
+}
+.custome_cta{
+    background-color: #fab702;
+    height: 100px;
+}
+.custome_cta .col-md-9{
+    font-size: 27px;
+    color: white;
+    margin-top: 27px;
+}
+.custome_cta .col-md-9 a{
+    color: #100b00;
+    text-decoration: underline;
+    background-color: transparent;
+    font-style: italic;
+}
+.custome_cta .col-md-3{
+    text-align: right;
+    margin-top: 25px;
+}
+.custome_cta .col-md-3 button{
+    font-size: 14px;
+    padding: 10px 20px;
+    color: #fab702;
+    border: none;
+}
+.custome_services{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.custome_services .service_title{
+    text-align: center;
+}
+.custome_services .service_title h1{
+    font-size: 44px;
+    font-weight: bold;
+}
+.custome_services .service_title p{
+    font-size: 14px;
+}
+.services{
+    margin-top: 50px;
+}
+.services .col-md-4 img{
+    width: 100%;
+}
+.services .col-md-4 h3{
+    margin-top: 15px;
+    color: #fab702;
+    font-size: 14px;
+    font-weight: bold;
+}
+.services .col-md-4 p{
+    font-size: 14px;
+    color: #9195ae;
+}
+.services .col-md-4 a{
+    font-size: 14px;
+    color: #9195ae;
+}
+.services .col-md-4 a:hover{
+    color: #fab702;
+    text-decoration: underline;
+}
+#playpausebtn{
+    position: relative;
+    left: 650px;
+    bottom: 110px;
+}
+.video_section button{
+    background: none;
+    border: none;
+    font-size: 40px;
+    color: #fff;
+}
+ 
+.v1_section{
+    
+    background-color: #fab702;
+}
+.v2_section{
+    background-color: #f8f8f8;
+    padding-top: 65px;
+}
+.v2_section .col-md-2{
+    text-align: center;
+}
+.v2_section .one i{
+    font-size: 51px;
+    color: #78b8e4;
+    margin-top: 25px;
+}
+.v2_section .two i{
+    font-size: 51px;
+    color: #78e49e;
+    margin-top: 25px;
+}
+.v2_section .three i{
+    font-size: 51px;
+    color: #e478ad;
+    margin-top: 25px;
+}
+.v2_section .col-md-10 h3{
+    font-size: 22px;
+    
+}
+.v2_section .col-md-10 h3:hover{
+    color: #fab702;
+}
+.v2_section .col-md-10 p{
+    font-size: 14px;
+    width: 415px;
+}
+.v2_section .row{
+     margin-top: 15px;
+}
+.featured_work{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.featured_work .custome_fw{
+    text-align: center;
+     
+}
+.nav-tab{
+    margin-bottom: 40px;
+}
+.custome_fw h1{
+    font-size: 44px;
+    font-weight: bold;
+}
+.custome_fw p{
+    font-size: 14px;
+}
+.nav-tabs .nav-link {
+     border: none; 
+     border-top-left-radius: none;
+    border-top-right-radius: none;
+}
+.nav-tabs {
+    border-bottom: none;
+    margin-left: 260px;
+}
+.nav-tabs a {
+    color: black;
+    text-decoration: none;
+    background-color: transparent;
+}
+.nav-tabs .nav-link.active {
+    color: #fab702;
+    text-decoration: underline;
+    background-color: #fff;
+    border-color: #dee2e6 #dee2e6 #fff;
+}
+.tab-pane .col-md-4{
+    padding: 0; 
+}
+.tab-pane .overlay{
+    position: absolute;
+    bottom: 0;
+    background-color: #fef6de;
+    width: 98%;
+    height: 20%;
+    opacity: 0;
+}
+.tab-pane .overlay .text{
+    color: #100b00;
+    font-size: 24px;
+    margin-left: 30px;
+    margin-top: 10px;
+    opacity: 0;
+}
+.tab-pane .col-md-4:hover .text{
+    opacity: 1;
+    
+}
+.tab-pane .col-md-4:hover .overlay{
+     opacity: 0.9;
+     margin-left: 0px;
+     margin-right: 5px;
+     margin-bottom: 5px;
+}
+ 
+  .tab-pane .col-md-4:hover{
+    padding: 5px;
+} 
+ 
+.custome_feed{
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+.custome_feed .custome_fd{
+    text-align: center;
+}
+.custome_fd h1{
+    font-size: 44px;
+    font-weight: bold;
+}
+.custome_fd p{
+
+    font-size: 14px;
+}
+.carousel-indicators li {
+    position: relative;
+    top: 90px;
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 10px;
+    height: 10px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: rgb(95, 91, 91);
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-radius: 100%;
+    opacity: .5;
+    transition: opacity .6s ease;
+}
+ .carousel-indicators .active {
+    background-color: #fab702;
+}
+.custome_feed .container{
+    margin-top: 90px;
+}
+.testomonial-content .col-md-9 p{
+    margin-top: 20px;
+    font-size: 14px;
+}
+.testomonial-content .col-md-9 h3{
+    font-size: 22px;
+}
+.testomonial-content{
+    background-color:#f9f9f9;
+    
+}
+.experience{
+    background-image: url('images/hero.jpg');
+     
+    background-blend-mode: luminosity;
+    background-color: black;
+    height: 200px;
+}
+.experience .title{
+    font-size: 13px;
+    color: white;
+     
+}
+.experience .count{
+    font-size: 50px;
+    color: white;
+}
+.experience .col-md-3{
+    margin-top: 60px;
+    text-align: center;
+    line-height: 0.8;
+}
+.company-logo{
+    margin-bottom: 50px;
+}
+.cta2{
+    background-color: #f9f9f9;
+    height: 320px;
+}
+.cta2 .cta2-box{
+    height: 120px;
+    background-color: #fff;
+    border-left: 2px solid #fab702;
+}
+.cta2 .container{
+    padding-top: 100px;
+}
+.cta2-box .col-md-9{
+    margin-top: 30px;
+    padding-left: 40px;
+}
+.cta2-box h4{
+    font-size: 20px;
+}
+.cta2-box p{
+    font-size: 13px;
+}
+.cta2-box .col-md-3 button{
+    border: none;
+    background-color: #fab702;
+    padding: 5px 15px;
+    font-size: 14px;
+    color: #fff;
+    margin-top: 40px;
+}
+.custome_news{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.custome_news .news_title{
+    text-align: center;
+}
+.custome_news .news_title h1{
+    font-size: 44px;
+    font-weight: bold;
+}
+.custome_services .news_title p{
+    font-size: 14px;
+}
+.news{
+    margin-top: 50px;
+}
+.news .col-md-4 img{
+    width: 100%;
+}
+.news .col-md-4 h2{
+    margin-top: 15px;
+     font-weight: bold;
+    font-size: 22px;
+    
+}
+.news .col-md-4 .date{
+    font-size: 11px;
+     
+}
+.news .col-md-4 p{
+    font-size: 14px;
+    color: #9195ae;
+}
+.news .col-md-4 a{
+    font-size: 14px;
+    color: #9195ae;
+}
+.news .col-md-4 a:hover{
+    color: #fab702;
+    text-decoration: underline;
+}
+.footer{
+    background-color: #252c3a;
+    height: 450px;
+}
+.footer .container{
+    padding-top: 76px;
+}
+.footer .col-md-3{
+    color: #fff;
+}
+.posts ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0;
+}
+.posts li{
+    font-size: 11px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-bottom: 1px solid #303744;
+}
+.footer h6{
+    font-size: 14px;
+}
+.footer .news{
+    margin-top: 30px;
+}
+.footer .news1 .col-md-8 .text{
+    font-size: 13px;
+    width: 182px;
+}
+.footer .news1{
+    border-bottom: 1px solid #303744;
+    padding-bottom: 10px;
+}
+.footer .news1 .col-md-8 .date{
+    font-size: 11px;
+    line-height: 0;
+}
+.footer .news2 .col-md-8 .text{
+    font-size: 13px;
+    width: 182px;
+}
+.footer .news2 .col-md-8 .date{
+    font-size: 11px;
+    line-height: 0;
+}
+.footer .news2{
+    padding-top: 10px;
+}
+.footer .contact .email{
+    font-size: 13px;
+    padding: 10px 0 10px 0;
+    border-bottom: 1px solid #303744;
+}
+.footer .contact .phone{
+    font-size: 13px;
+    padding: 10px 0 10px 0;
+    border-bottom: 1px solid #303744;
+}
+.footer .contact .phone .col-md-2{
+    
+    padding-top: 9px;
+}
+ 
+.footer .contact .address{
+    font-size: 13px;
+    padding: 10px 0 10px 0;
+    border-bottom: 1px solid #303744;
+}
+.footer .contact   .col-md-10{
+    padding-left: 0;
+}
+.footer .contact   .col-md-2{
+    padding-right: 0px;
+    
+}
+.social-icon .fa-facebook-square{
+    margin-right: 15px;
+}
+.social-icon .fa-skype{
+    margin-right: 15px;
+}
+.footer .contact .social-icon{
+     
+    padding: 10px 0;
+}
+.footer .mailing{
+    margin-top: 20px;
+    font-size: 13px;
+}
+.input input[type=email]{
+    width: 180px;
+    padding: 10px 15px;
+    font-size: 11px;
+    border: none;
+}
+
+.input button[type=submit]{
+    border: none;
+    padding: 10px 20px;
+    background-color: #fab702;
+    font-size: 11px;
+    font-weight: bold;
+    color: #fff;
+}
+.input{
+    margin-top: 20px;
+}
+
+.footer .sub-text{
+    font-size: 12px;
+    color: #919191;
+    margin-top: 15px;
+}
+
+
+/* media css for tablet */
+@media only screen and (min-width: 415px) and  (max-width: 768px){
+    body{
+         overflow-x: hidden;
+    }
+    .header .contact span{
+        font-size: 10px;
+    }
+    .custome_hero {
+        height: 65vh;
+    }
+    .custome_cta .col-md-9 {
+        font-size: 17px;
+    }
+    #playpausebtn {
+        position: relative;
+        left: 305px;
+        bottom: 220px;
+    }
+    .v2_section .col-md-10 p {
+       
+        width: 301px;
+    }
+    .company-logo .col-md-3 img{
+        width: 100%;
+    }
+    .testomonial-content .col-md-9 h3 {
+        font-size: 16px;
+        position: relative;
+        left: 61px;
+    }
+    .testomonial-content .col-md-9 p {
+        margin-top: 20px;
+        font-size: 13px;
+        width: 80%;
+        position: relative;
+        left: 58px;
+    }
+    .cta2 .cta2-box {
+        height: 101px;
+        background-color: #fff;
+        border-left: 2px solid #fab702;
+    }
+    .cta2-box h4 {
+        font-size: 12px;
+    }
+    .cta2-box p {
+        font-size: 10px;
+    }
+    .cta2-box .col-md-3 button {
+        border: none;
+        background-color: #fab702;
+        padding: 5px 15px;
+        font-size: 11px;
+        color: #fff;
+        margin-top: 40px;
+    }
+    .news .col-md-4 h2 {
+        margin-top: 15px;
+        font-weight: bold;
+        font-size: 17px;
+    }
+    .news .col-md-4 p {
+        font-size: 12px;
+        color: #9195ae;
+    }
+    .footer .news1 .col-md-8 .text, .footer .news2 .col-md-8 .text {
+        font-size: 8px;
+        width: 100px;
+    }
+     
+    .footer .news1 .col-md-8 .date, .footer .news1 .col-md-8 .date {
+        font-size: 8px;
+    }
+    .input input[type=email] {
+        width: 75%;
+        padding: 10px 15px;
+        font-size: 8px;
+        border: none;
+    }
+    .input button[type=submit] {
+        border: none;
+        padding: 10px 6px;
+        background-color: #fab702;
+        font-size: 8px;
+        font-weight: bold;
+        color: #fff;
+    }
+    .footer .mailing {
+        margin-top: 20px;
+        font-size: 8px;
+    }
+    .footer .contact .col-md-10 {
+        padding-left: 5px;
+        font-size: 8px;
+    }
+    .footer .phone .col-md-10{
+        margin-top: 5px;
+    }
+    .posts li {
+        font-size: 8px;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        border-bottom: 1px solid #303744;
+    }
+    .nav-tabs {
+        border-bottom: none;
+        margin-left: 100px;
+    }
+    .nav-tabs .nav-link {
+        border: none;
+        font-size: 16px;
+         
+    }
+   .v1_section video{
+       margin-left: 10px;
+   }
+   .tab-pane .overlay .text {
+     
+    font-size: 14px;
+    
+}
+}
+
+/* media css for mobile phones */
+@media only screen and (min-width: 320px) and  (max-width: 414px){
+
+    body{
+        overflow-x: hidden;
+        margin: 0;
+    }
+    .header{
+        display: none;
+    }
+    .custome_hero {
+        
+        height: 80vh;
+        
+    }
+    .main_text {
+        font-size: 28px;
+        
+        position: relative;
+        top: 103px;
+    }
+    .sub_text {
+        font-size: 14px;
+        position: relative;
+        top: 115px;
+        color: #fff;
+    }
+    .custome_hero button {
+        position: relative;
+        top: 131px;
+        background-color: #fab702;
+        border: none;
+        padding: 15px 50px;
+        color: #fff;
+        font-size: 14px;
+        border: none;
+    }
+    .custome_cta .col-md-9 {
+        font-size: 9px;
+         
+    }
+    .custome_cta .col-md-3 button {
+        font-size: 14px;
+        padding: 5px 20px;
+        color: #fab702;
+        border: none;
+        position: relative;
+        right: 95px;
+        bottom: 14px;
+    }
+    .v2_section {
+    
+        padding-top: 0px;
+    }
+    .custome_services {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .custome_services .services .col-md-4{
+        margin: 10px;
+    }
+    .custome_services .service_title h1 {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .custome_services .service_title p {
+        font-size: 10px;
+    }
+    #playpausebtn {
+        position: relative;
+        left: 270px;
+        bottom: 110px;
+    }
+     
+    .v2_section .row {
+        margin-top: 0;
+    }
+    .v2_section .col-md-10{
+        text-align: center;
+    margin-top: 15px;
+    }
+    .v2_section .col-md-10 p {
+        font-size: 13px;
+        width: 100%;
+    }
+    .featured_work {
+        margin-top: 40px;
+        margin-bottom: 0px;
+    }
+    .custome_fw h1 {
+        font-size: 28px;
+        font-weight: bold;
+    }
+    .custome_fw p {
+        font-size: 10px;
+    }
+    .nav-tabs {
+        border-bottom: none;
+        margin-left: 0px;
+    }
+    .nav-tabs .nav-link {
+        border: none;
+        padding: 4px;
+        
+    }
+    .nav-tabs a {
+        
+        font-size: 10px;
+         
+    }
+    .tab-pane .overlay .text {
+         
+        font-size: 17px;
+        margin-left: 50px;
+        margin-top: 15px;
+         
+    }
+    .custome_feed {
+        margin-top: 40px;
+        margin-bottom: 80px;
+    }
+    .custome_fd h1 {
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .custome_fd p {
+        font-size: 10px;
+    }
+    .testomonial-content .col-md-3, .testomonial-content .col-md-9{
+        text-align: center;
+    }
+    .testomonial-content .col-md-9 p {
+        margin-top: 10px;
+        font-size: 10px;
+    }
+    .testomonial-content .col-md-9 p {
+        margin-top: 10px;
+        font-size: 10px;
+    }
+    .testomonial-content .col-md-9 h3 {
+        font-size: 17px;
+    }
+    .custome_feed .container {
+        margin-top: 0;
+    }
+    .company-logo .col-md-3 img{
+        width: 100%;
+    }
+    .experience {
+        background-size: cover;
+        height: 100%;
+    }
+    .experience .col-md-3 {
+        margin-top: 10px;
+        
+    }
+    .cta2-box .col-md-3 button {
+        border: none;
+        background-color: #fab702;
+        padding: 5px 15px;
+        font-size: 9px;
+        color: #fff;
+        margin-top: 0px;
+        position: relative;
+        left: 80px;
+    }
+    .cta2-box .col-md-9 {
+        margin-top: 10px;
+        padding-left: 40px;
+    }
+    .cta2-box h4 {
+        font-size: 12px;
+    }
+    .cta2-box p {
+        font-size: 9px;
+    }
+    .cta2 .container {
+        padding-top: 40px;
+    }
+    .cta2 {
+        
+        height: 200px;
+    }
+    .custome_news .news_title h1 {
+        font-size: 27px;
+         
+    }
+    .custome_news {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .custome_news .news {
+        margin-top: 0px;
+    }
+    .news .col-md-4{
+        margin-bottom: 15px;
+    }
+    .posts li {
+        font-size: 10px;
+        padding-bottom: 3px;
+        padding-top: 3px;
+       
+    }
+    .footer {
+        background-color: #252c3a;
+        height: 100%;
+    }
+    .footer .container {
+        padding-top: 10px;
+    }
+    .footer .recent_news {
+        margin-top: 10px;
+    }
+    .footer .news {
+        margin-top: 10px;
+    }
+   .footer .news .col-md-4 img {
+        width: 15%;
+    }
+    .footer .news1 .col-md-8 .text, .footer .news2 .col-md-8 .text {
+        font-size: 10px;
+        width: 182px;
+    }
+    .footer .news1 .col-md-8 .date, .footer .news2 .col-md-8 .text {
+        font-size: 9px;
+        line-height: 0;
+    }
+    .footer .contact-info {
+        padding-left: 25px;
+    }
+    .footer .contact .email, .footer .contact .phone, .footer .contact .address {
+        font-size: 13px;
+        padding: 0px 0 5px 0;
+        
+    }
+    .footer .mailing {
+        margin-top: 10px;
+        font-size: 9px;
+    }
+    .footer .news1 {
+        border-bottom: 1px solid #303744;
+        padding-bottom: 0px;
+    }
+    .footer .contact .col-md-2 {
+        padding: 0px;
+    }
+    .services {
+        margin-top: 0px;
+    }
+}
+
+/* media css for screen 1280px */
+@media only screen and (width: 1280px){
+    #playpausebtn {
+        position: relative;
+        left: 552px;
+        bottom: 125px;
+    }
+}
+/* media css for screen 1440px */
+@media only screen and (width: 1440px){
+    #playpausebtn {
+        position: relative;
+        left: 635px;
+        bottom: 125px;
+    }
+}
+/* media css for screen 1024px ipad pro */
+@media only screen and (width: 1024px){
+    .custome_hero {
+        
+        height: 50vh;
+        
+    }
+    .custome_cta .col-md-9 {
+        font-size: 23px;
+        color: white;
+        margin-top: 27px;
+    }
+    #playpausebtn {
+        position: relative;
+        left: 435px;
+        bottom: 154px;
+    }
+    .input input[type=email] {
+        width: 135px;
+        padding: 10px 15px;
+        font-size: 11px;
+        border: none;
+    }
+}

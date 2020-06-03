@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="css/all.min.css">
+     <link rel="stylesheet" href="style.css">
+    <title>Buildx</title>
+    <script>
+      function playPause(btn, vid){
+        var vid = document.getElementById(vid);
+
+        if(vid.paused){
+          vid.play();
+          btn.innerHTML = '<i class="fas fa-pause-circle"></i>';
+        }else{
+          vid.pause();
+          btn.innerHTML = '<i class="far fa-play-circle"></i>';
+        }
+      }
+    </script>
+</head>
+<body>
+    <section class="header">
+        <div class="container">
+            <div class="row">
+                 <div class="col-md-6">Have any question?</div>
+                 <div class="col-md-6 contact"> <span><i class="far fa-envelope"></i> contact@mail.com  </span> <i class="fas fa-phone-alt"></i> +080 0444 333 444</div>
+            </div>
+        </div>
+    </section>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+        <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Project</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Pages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <li class="nav-item" style="margin-top: 6px;">
+                <i class="fas fa-search"></i>
+              </li>
+            
+          </ul>
+        </div>
+    </div>
+      </nav>
+
+      <section class="custome_hero">
+           <div class="container">
+              <span class="main_text">WE DO BIG THINGS <br> WITH BIG IDEAS</span><br>
+              <span class="sub_text">Talk To Our Experts and Get Your Dream Home Done. If you dream of designing <br>
+                a new home that takes full advantage  of the unique geography and <br>
+                views of land that you love</span> <br>
+                <button type="submit">Explore Now</button>
+          </div> 
+      </section>
+      <section class="custome_cta">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-9">Consulting And Estimate For Your Project,<a href="#">Contact Us Today</a></div>
+            <div class="col-md-3"><button type="submit">Get a Quite</button></div>
+          </div>
+        </div>
+      </section>
+      <section class="custome_services">
+        <div class="container">
+          <div class="row">
+            <div class="service_title">
+              <h1>OUR SERVICES</h1>
+              <P>Lorem ipsum dolor sit amet, sed dicunt oporteat cu, laboramus definiebas cum et. Duo id omnis  persequeris neglegentur, facete commodo ea usu, possit lucilius sed ei. Esse efficiendi scripserit eos ex. Sea utamur iisque salutatus id.Mel autem animal.</P>
+            </div>
+          </div>
+          <div class="row services">
+            <div class="col-md-4">
+              <img src="images/s1.jpg" alt="">
+              <h3>RENOVATION</h3>
+              <P>Lorem ipsum dolor sit amet, sed dicunt oporteat cuum Tuo iomnis persequeris neglegentur, facete commodo ea use possit lucilius.</P>
+              <a href="#">READ MORE</a>
+            </div>
+            <div class="col-md-4">
+              <img src="images/s2.jpg" alt="">
+              <h3>CONSULTING</h3>
+              <P>Lorem ipsum dolor sit amet, sed dicunt oporteat cuum Tuo iomnis persequeris neglegentur, facete commodo ea use possit lucilius.</P>
+              <a href="#">READ MORE</a>
+            </div>
+            <div class="col-md-4">
+              <img src="images/s3.jpg" alt="">
+              <h3>SMART HOUSE</h3>
+              <P>Lorem ipsum dolor sit amet, sed dicunt oporteat cuum Tuo iomnis persequeris neglegentur, facete commodo ea use possit lucilius.</P>
+              <a href="#">READ MORE</a>
+            </div>
+          </div>          
+        </div>
+      </section>
+      <section class="video_section">
+        
+        <div class="row">
+          <div class="col-md-6 v1_section">
+           <video id="my_video"  height="100%" width="100%">
+          <source src="videos/190402_03_Easter_UHD_04.mp4" type="video/mp4">
+            your browser does not support video change browser
+          </video>
+          <button id="playpausebtn" onclick="playPause(this,'my_video')"><i class="far fa-play-circle"></i></button>  
+          </div>
+          <div class="col-md-6 v2_section">
+            <div class="row">
+              <div class="col-md-2 one">
+                <i class="fas fa-city"></i>
+              </div>
+              <div class="col-md-10">
+                <h3> GENERAL BUILDER</h3>  
+                <p>Lorem ipsum dolor sit amet, sed dicunt oporteat cuum Tuo iomnis persequeris neglegentur, facete commodo ea use possit lucilius</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-2 two">
+                <i class="fas fa-home"></i>
+              </div>
+              <div class="col-md-10">
+                <h3> HOUSE EXTENSIONS</h3>  
+                <p>Lorem ipsum dolor sit amet, sed dicunt oporteat cuum Tuo iomnis persequeris neglegentur, facete commodo ea use possit lucilius</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-2 three">
+                <i class="fas fa-dumpster"></i>
+              </div>
+              <div class="col-md-10">
+                <h3> REFURBISHMENT</h3>  
+                <p>Lorem ipsum dolor sit amet, sed dicunt oporteat cuum Tuo iomnis persequeris neglegentur, facete commodo ea use possit lucilius</p>
+              </div>
+            </div> 
+          </div>
+        </div>
+       
+      </section>
+
+      <section class="featured_work">
+        <div class="container custome_fw">
+         
+          <h1>FEATURED WORK</h1>
+        <p>Lorem ipsum dolor sit amet, sed dicunt oporteat cu, laboramus definiebas cum et. Duo id omnis persequeris neglegentur, facete commodo ea usu, possit lucilius sed ei. Esse efficiendi scripserit eos ex. Sea utamur iisque salutatus id.Mel autem animal.</p>
+         
+      </div>
+      <div class="container nav-tab">
+        <nav>
+          <div class="nav nav-tabs" id="nav-tab" role="tablist">
+              <a class="nav-item nav-link active show" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="false"> All</a>
+              <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false"> Green Building</a>
+              <a class="nav-item nav-link " id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="true">Healthcare</a>
+              <a class="nav-item nav-link" id="nav-last-tab" data-toggle="tab" href="#nav-last" role="tab" aria-controls="nav-contact" aria-selected="false">Interier Design</a>
+              <a class="nav-item nav-link" id="nav-technology" data-toggle="tab" href="#nav-techno" role="tab" aria-controls="nav-contact" aria-selected="false">office</a>
+          </div>
+      </nav>   
+    </div>
+    <div class="contaner-fluid"> 
+<div class="row">
+  <div class="col-md-12"> 
+    <div class="tab-content active" id="nav-tabContent">
+      <!--1st home tab-->
+      <div class="tab-pane fade active show" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+      <div class="row">   
+        <div class="col-md-4">
+          <img src="images/1.jpeg" height="100%" width="100%" alt="">
+          <div class="overlay">
+            <div class="text">ARCHITECTURE AND DESIGN</div> 
+          </div>
+        </div>
+        <div class="col-md-4">
+          <img src="images/2.jpeg" height="100%" width="100%" alt="">
+          <div class="overlay">
+            <div class="text">ARCHITECTURE AND DESIGN</div> 
+          </div>
+        </div>
+        <div class="col-md-4">
+          <img src="images/3.jpeg" height="100%" width="100%" alt="">
+          <div class="overlay">
+            <div class="text">ARCHITECTURE AND DESIGN</div> 
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <img src="images/4.jpg" height="100%" width="100%" alt="">
+          <div class="overlay">
+            <div class="text">ARCHITECTURE AND DESIGN</div> 
+          </div>
+        </div>
+        <div class="col-md-4">
+          <img src="images/5.jpeg" height="100%" width="100%" alt="">
+          <div class="overlay">
+            <div class="text">ARCHITECTURE AND DESIGN</div> 
+          </div>
+        </div>
+        <div class="col-md-4">
+          <img src="images/6.jpeg" height="100%" width="100%" alt="">
+          <div class="overlay">
+            <div class="text">ARCHITECTURE AND DESIGN</div> 
+          </div>
+        </div>
+      </div>
+      </div>
+      <!--second tab-->
+      <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+        <div class="row">   
+          <div class="col-md-4">
+            <img src="images/6.jpeg" height="100%" width="100%" alt="">
+          </div>
+          <div class="col-md-4">
+            <img src="images/5.jpeg" height="100%" width="100%" alt="">
+          </div>
+          <div class="col-md-4">
+            <img src="images/4.jpg" height="100%" width="100%" alt="">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <img src="images/3.jpeg" height="100%" width="100%" alt="">
+          </div>
+          <div class="col-md-4">
+            <img src="images/2.jpeg" height="100%" width="100%" alt="">
+          </div>
+          <div class="col-md-4">
+            <img src="images/1.jpeg" height="100%" width="100%" alt="">
+          </div>
+        </div>
+        </div>
+          <!--third tab-->
+          <div class="tab-pane fade " id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+            <div class="row">   
+              <div class="col-md-4">
+                <img src="images/1.jpeg" height="100%" width="100%" alt="">
+              </div>
+              <div class="col-md-4">
+                <img src="images/2.jpeg" height="100%" width="100%" alt="">
+              </div>
+              <div class="col-md-4">
+                <img src="images/3.jpeg" height="100%" width="100%" alt="">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4">
+                <img src="images/4.jpg" height="100%" width="100%" alt="">
+              </div>
+              <div class="col-md-4">
+                <img src="images/5.jpeg" height="100%" width="100%" alt="">
+              </div>
+              <div class="col-md-4">
+                <img src="images/6.jpeg" height="100%" width="100%" alt="">
+              </div>
+            </div>
+        </div>
+          <!--fourth tab-->
+          <div class="tab-pane fade" id="nav-last" role="tabpanel" aria-labelledby="nav-last-tab">
+            <div class="row">   
+              <div class="col-md-4">
+                <img src="images/1.jpeg" height="100%" width="100%" alt="">
+              </div>
+              <div class="col-md-4">
+                <img src="images/2.jpeg" height="100%" width="100%" alt="">
+              </div>
+              <div class="col-md-4">
+                <img src="images/3.jpeg" height="100%" width="100%" alt="">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4">
+                <img src="images/4.jpg" height="100%" width="100%" alt="">
+              </div>
+              <div class="col-md-4">
+                <img src="images/5.jpeg" height="100%" width="100%" alt="">
+              </div>
+              <div class="col-md-4">
+                <img src="images/6.jpeg" height="100%" width="100%" alt="">
+              </div>
+            </div>
+            </div>
+             <!--fifth tab-->
+             <div class="tab-pane fade" id="nav-techno" role="tabpanel" aria-labelledby="nav-technology">
+              <div class="row">   
+                <div class="col-md-4">
+                  <img src="images/1.jpeg" height="100%" width="100%" alt="">
+                </div>
+                <div class="col-md-4">
+                  <img src="images/2.jpeg" height="100%" width="100%" alt="">
+                </div>
+                <div class="col-md-4">
+                  <img src="images/3.jpeg" height="100%" width="100%" alt="">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-4">
+                  <img src="images/4.jpg" height="100%" width="100%" alt="">
+                </div>
+                <div class="col-md-4">
+                  <img src="images/5.jpeg" height="100%" width="100%" alt="">
+                </div>
+                <div class="col-md-4">
+                  <img src="images/6.jpeg" height="100%" width="100%" alt="">
+                </div>
+              </div>
+            </div>
+    </div>
+      </div>
+      </div>
+    </div>
+      </section>
+
+      <section class="custome_feed">
+        <div class="container">
+          <div class="custome_fd">
+            <h1>CUSTOMER FEEDBACK</h1>
+          <p>Lorem ipsum dolor sit amet, sed dicunt oporteat cu, laboramus definiebas cum et. Duo id omnis persequeris neglegentur, facete commodo ea usu, possit lucilius sed ei. Esse efficiendi scripserit eos ex. Sea utamur iisque salutatus id.Mel autem animal.</p>
+          </div>
+        </div>
+        <div class="container">
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col-md-6">
+                     <div class="testomonial-content">
+                       <div class="row">
+                       <div class="col-md-3">
+                         <img src="images/test1.jpg" alt="">
+                       </div>
+                       <div class="col-md-9">
+                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been and scrambled it to make a type specimen book.</p>
+                        <h3>homeengineer - ceo</h3>
+                        </div>
+                      </div>
+                     </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="testomonial-content">
+                      <div class="row">
+                      <div class="col-md-3">
+                        <img src="images/test3.jpg" alt="">
+                      </div>
+                      <div class="col-md-9">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been and scrambled it to make a type specimen book.</p>
+                        <h3>homeengineer - ceo</h3>
+                       </div>
+                     </div>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+               <div class="carousel-item">
+                <div class="row">
+                  <div class="col-md-6">
+                     <div class="testomonial-content">
+                       <div class="row">
+                       <div class="col-md-3">
+                         <img src="images/test2.jpg" alt="">
+                       </div>
+                       <div class="col-md-9">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been and scrambled it to make a type specimen book.</p>
+                        <h3>homeengineer - ceo</h3>
+                        </div>
+                      </div>
+                     </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="testomonial-content">
+                      <div class="row">
+                      <div class="col-md-3">
+                        <img src="images/test3.jpg" alt="">
+                      </div>
+                      <div class="col-md-9">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been and scrambled it to make a type specimen book.</p>
+                        <h3>homeengineer - ceo</h3>
+                       </div>
+                     </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-md-6">
+                     <div class="testomonial-content">
+                       <div class="row">
+                       <div class="col-md-3">
+                         <img src="images/test3.jpg" alt="">
+                       </div>
+                       <div class="col-md-9">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been and scrambled it to make a type specimen book.</p>
+                        <h3>homeengineer - ceo</h3>
+                        </div>
+                      </div>
+                     </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="testomonial-content">
+                      <div class="row">
+                      <div class="col-md-3">
+                        <img src="images/test1.jpg" alt="">
+                      </div>
+                      <div class="col-md-9">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been and scrambled it to make a type specimen book.</p>
+                        <h3>homeengineer - ceo</h3>
+                       </div>
+                     </div>
+                    </div>
+                  </div>
+                </div>
+              </div> 
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="company-logo">
+        <div class="container">
+        <div class="row">
+          <div class="col-md-3"><img src="images/logo1.png" alt=""></div>
+          <div class="col-md-3"> <img src="images/logo2.png" alt=""></div>
+          <div class="col-md-3"><img src="images/logo3.png" alt=""></div>
+          <div class="col-md-3"><img src="images/logo4.png" alt=""></div>
+        </div>
+      </div>
+      </section>
+      <section class="experience">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 col-sm-3">
+              <P class="title">PROJECT</P> 
+              <P class="count">2540</P>
+            </div>
+            <div class="col-md-3 col-sm-3">
+              <P class="title">CREDIT</P> 
+              <P class="count">7325</P>
+            </div>
+            <div class="col-md-3 col-sm-3">
+              <P class="title">AWARD</P> 
+              <P class="count">1924</P>
+            </div>
+            <div class="col-md-3 col-sm-3">
+              <P class="title">CLIENTS</P> 
+              <P class="count">4275</P>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="cta2">
+        <div class="container">
+          <div class="cta2-box">
+            <div class="row">
+              <div class="col-md-9">
+                <h4>Embedded in our culture of hard work, honesty, and getting the well done job</h4>
+                <p>It can be used on larger scale projects as well as small scale projects without any problems. </p>
+              </div>
+              <div class="col-md-3">
+                <button type="submit">Contact Us Today!</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="custome_news">
+        <div class="container">
+          <div class="row">
+            <div class="news_title">
+              <h1>OUR FEATURED NEWS</h1>
+              <P>Lorem ipsum dolor sit amet, sed dicunt oporteat cu, laboramus definiebas cum et. Duo id omnis  persequeris neglegentur, facete commodo ea usu, possit lucilius sed ei. Esse efficiendi scripserit eos ex. Sea utamur iisque salutatus id.Mel autem animal.</P>
+            </div>
+          </div>
+          <div class="row news">
+            <div class="col-md-4">
+              <img src="images/s2.jpg" alt="">
+              <h2>Construction Forklift <br> 
+                Buyers Guide</h2>
+                <p class="date"><i class="far fa-calendar"></i> 12 september 2020</p>
+              <P>Lorem ipsum dolor sit amet, sed dicunt oporteat cuum Tuo iomnis persequeris neglegentur, facete commodo ea use possit lucilius.</P>
+              <a href="#">READ MORE</a>
+            </div>
+            <div class="col-md-4">
+              <img src="images/s1.jpg" alt="">
+              <h2>How to plan for your <br>
+                dream house?</h2>
+                <p class="date"><i class="far fa-calendar"></i> 12 september 2020</p>
+              <P>Lorem ipsum dolor sit amet, sed dicunt oporteat cuum Tuo iomnis persequeris neglegentur, facete commodo ea use possit lucilius.</P>
+              <a href="#">READ MORE</a>
+            </div>
+            <div class="col-md-4">
+              <img src="images/s3.jpg" alt="">
+              <h2>Builder of human <br>
+                happiness for all time</h2>
+                <p class="date"><i class="far fa-calendar"></i> 12 september 2020</p>
+              <P>Lorem ipsum dolor sit amet, sed dicunt oporteat cuum Tuo iomnis persequeris neglegentur, facete commodo ea use possit lucilius.</P>
+              <a href="#">READ MORE</a>
+            </div>
+          </div>          
+        </div>
+      </section>
+      <section class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 posts">
+              <h6>Recent Posts</h6>
+              <ul>
+                <li><i class="fas fa-angle-double-right"></i> How you can impact your customers.</li>
+                <li><i class="fas fa-angle-double-right"></i> Construction is all about quality.</li>
+                <li><i class="fas fa-angle-double-right"></i> Is your website user friendly?</li>
+                <li><i class="fas fa-angle-double-right"></i> HUGE offers weekly updates & more.</li>
+                <li style="border: none;"><i class="fas fa-angle-double-right"></i> Your customers should love your web.</li>
+              </ul>
+            </div>
+            <div class="col-md-3 recent_news">
+              <h6>Recent News</h6>
+              <div class="news">
+              <div class="news1">
+                <div class="row">
+                  <div class="col-md-4"><img src="images/news1.jpg" alt=""></div>
+                  <div class="col-md-8">
+                    <p class="text">A Clean Website Gives More Experience To The Visitors</p>
+                    <p class="date">dec 12-2020</p>
+                  </div>
+                </div>
+              </div>
+              <div class="news2">
+                <div class="row">
+                  <div class="col-md-4"><img src="images/news2.jpg" alt=""></div>
+                  <div class="col-md-8">
+                    <p class="text">A Clean Website Gives More Experience To The Visitors</p>
+                    <p class="date">dec 12-2020</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+            <div class="col-md-3 contact-info" style="padding-left: 40px;">
+              <h6>Contact Info</h6>
+              <div class="contact">
+                <div class="email">
+                  <div class="row">
+                    <div class="col-md-2"><i class="far fa-envelope"></i></div>
+                    <div class="col-md-10"> hello@contact.com</div>
+                  </div>
+                  
+                </div>
+                <div class="phone">
+                  <div class="row">
+                    <div class="col-md-2">
+                      <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <div class="col-md-10">
+                      <span class="p-phone">p: 3333-222-111 </span><br>
+                     <span class="f-phone"> F: 3333-222-111</span>
+                    </div>
+                  </div>
+                   
+                </div>
+                <div class="address">
+                  <div class="row">
+                    <div class="col-md-2"><i class="fas fa-map-marker-alt"></i></div>
+                    <div class="col-md-10"> 99 Barnard St - Suite 111 
+                      United States - GA 22222 </div>
+                  </div>
+                  
+                </div>
+                <div class="social-icon">
+                  <i class="fab fa-facebook-square"></i> <i class="fab fa-skype"></i> <i class="fab fa-instagram-square"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <h6>Mailing List</h6>
+              <div class="mailing">
+                Enter your email address  for our mailing list to keep yourself updated.
+              </div>
+              <div class="input">
+                <input type="email" placeholder="Email Address"><button type="submit">DONE</button>
+              </div>
+              <div class="sub-text">
+                We Respect Your Privacy.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+       
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
